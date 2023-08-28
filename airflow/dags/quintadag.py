@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from datetime import datetime, timedelta
 
-with    DAG('quartadag', description='Quarta DAG',
+with    DAG('quintadag', description='Quinta DAG',
             schedule_interval=None,start_date=datetime(2023, 3, 5),
             catchup=False) as dag:
             
