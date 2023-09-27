@@ -1,0 +1,10 @@
+2023-09-27 14:05:54.531 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2023-09-27 14:05:54.802 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2023-09-27 14:06:01.359 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:01.381 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:03.948 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:04.026 [info] Extracted extension to file:///root/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.82.2023091309: ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:04.119 [info] Renamed to /root/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.82.2023091309
+2023-09-27 14:06:04.126 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:04.203 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2023-09-27 14:06:04.319 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
