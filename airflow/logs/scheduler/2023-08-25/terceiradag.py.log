@@ -1,0 +1,1278 @@
+[2023-08-25T00:17:43.379+0000] {processor.py:153} INFO - Started process (PID=1494) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:43.380+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:17:43.380+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:43.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:43.388+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:43.387+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiradag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiradag.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:43.388+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:43.435+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.059 seconds
+[2023-08-25T00:17:48.471+0000] {processor.py:153} INFO - Started process (PID=1512) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:48.471+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:17:48.472+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:48.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:48.477+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:48.476+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiradag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiradag.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:48.477+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:48.520+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.051 seconds
+[2023-08-25T00:17:53.593+0000] {processor.py:153} INFO - Started process (PID=1515) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:53.594+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:17:53.594+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:53.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:53.600+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:53.600+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiradag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiradag.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:53.600+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:53.645+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.054 seconds
+[2023-08-25T00:17:58.730+0000] {processor.py:153} INFO - Started process (PID=1534) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:58.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:17:58.731+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:58.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:58.739+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:58.738+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiradag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiradag.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:58.740+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:17:58.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.063 seconds
+[2023-08-25T00:18:03.862+0000] {processor.py:153} INFO - Started process (PID=1537) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:03.863+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:03.863+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:03.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:03.870+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:03.870+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiradag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiradag.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:18:03.871+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:03.909+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.050 seconds
+[2023-08-25T00:18:04.868+0000] {processor.py:153} INFO - Started process (PID=1538) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:04.869+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:04.869+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:04.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:04.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:05.054+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.054+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:terceiradag
+[2023-08-25T00:18:05.089+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.089+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:terceiradag
+[2023-08-25T00:18:05.125+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.125+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:terceiradag
+[2023-08-25T00:18:05.126+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.125+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:05.139+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.139+0000] {dag.py:2711} INFO - Creating ORM DAG for terceiradag
+[2023-08-25T00:18:05.150+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:05.150+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:05.238+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.372 seconds
+[2023-08-25T00:18:11.151+0000] {processor.py:153} INFO - Started process (PID=1558) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:11.152+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:11.152+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:11.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:11.164+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:11.174+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:11.174+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:11.199+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:11.199+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:11.256+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.107 seconds
+[2023-08-25T00:18:16.330+0000] {processor.py:153} INFO - Started process (PID=1561) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:16.331+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:16.331+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:16.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:16.343+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:16.352+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:16.352+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:16.378+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:16.378+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:16.434+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.106 seconds
+[2023-08-25T00:18:21.495+0000] {processor.py:153} INFO - Started process (PID=1572) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:21.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:21.516+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:21.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:21.535+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:21.572+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:21.572+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:21.633+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:21.632+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:21.728+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.237 seconds
+[2023-08-25T00:18:26.772+0000] {processor.py:153} INFO - Started process (PID=1582) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:26.772+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:26.773+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:26.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:26.784+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:26.795+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:26.795+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:26.834+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:26.834+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:26.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.129 seconds
+[2023-08-25T00:18:31.930+0000] {processor.py:153} INFO - Started process (PID=1589) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:31.931+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:31.931+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:31.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:31.940+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:31.949+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:31.949+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:31.984+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:31.984+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:32.029+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.101 seconds
+[2023-08-25T00:18:37.086+0000] {processor.py:153} INFO - Started process (PID=1608) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:37.086+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:37.087+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:37.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:37.098+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:37.117+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:37.117+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:37.141+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:37.141+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:37.213+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.130 seconds
+[2023-08-25T00:18:42.245+0000] {processor.py:153} INFO - Started process (PID=1611) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:42.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:42.246+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:42.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:42.257+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:42.276+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:42.276+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:42.301+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:42.301+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:42.340+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.098 seconds
+[2023-08-25T00:18:47.406+0000] {processor.py:153} INFO - Started process (PID=1631) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:47.407+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:47.407+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:47.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:47.420+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:47.443+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:47.443+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:47.470+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:47.470+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:47.513+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.110 seconds
+[2023-08-25T00:18:52.568+0000] {processor.py:153} INFO - Started process (PID=1634) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:52.568+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:52.569+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:52.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:52.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:52.595+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:52.595+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:52.616+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:52.615+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:52.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.090 seconds
+[2023-08-25T00:18:57.709+0000] {processor.py:153} INFO - Started process (PID=1637) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:57.718+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:18:57.718+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:57.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:57.730+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:18:57.752+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:57.752+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:18:57.777+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:18:57.777+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:18:57.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.117 seconds
+[2023-08-25T00:19:02.883+0000] {processor.py:153} INFO - Started process (PID=1656) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:02.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:02.884+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:02.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:02.893+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:02.912+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:02.912+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:02.935+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:02.935+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:02.975+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.095 seconds
+[2023-08-25T00:19:08.032+0000] {processor.py:153} INFO - Started process (PID=1659) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:08.033+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:08.033+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:08.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:08.045+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:08.067+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:08.067+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:08.092+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:08.091+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:08.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.177 seconds
+[2023-08-25T00:19:13.267+0000] {processor.py:153} INFO - Started process (PID=1678) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:13.268+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:13.268+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:13.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:13.280+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:13.309+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:13.308+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:13.342+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:13.342+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:13.396+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.131 seconds
+[2023-08-25T00:19:18.437+0000] {processor.py:153} INFO - Started process (PID=1681) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:18.437+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:18.438+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:18.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:18.448+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:18.465+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:18.464+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:18.484+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:18.484+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:18.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.089 seconds
+[2023-08-25T00:19:23.614+0000] {processor.py:153} INFO - Started process (PID=1684) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:23.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:23.615+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:23.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:23.627+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:23.652+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:23.652+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:23.688+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:23.688+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:23.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.139 seconds
+[2023-08-25T00:19:28.791+0000] {processor.py:153} INFO - Started process (PID=1703) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:28.792+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:28.792+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:28.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:28.804+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:28.828+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:28.828+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:28.854+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:28.854+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:28.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.110 seconds
+[2023-08-25T00:19:33.953+0000] {processor.py:153} INFO - Started process (PID=1706) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:33.961+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:33.961+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:33.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:33.971+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:33.988+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:33.987+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:34.008+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:34.008+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:34.068+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.116 seconds
+[2023-08-25T00:19:39.102+0000] {processor.py:153} INFO - Started process (PID=1725) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:39.102+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:39.103+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:39.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:39.115+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:39.138+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:39.138+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:39.183+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:39.183+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:39.238+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.138 seconds
+[2023-08-25T00:19:44.296+0000] {processor.py:153} INFO - Started process (PID=1728) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:44.296+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:44.297+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:44.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:44.308+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:44.328+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:44.328+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:44.352+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:44.352+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:44.397+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:19:49.452+0000] {processor.py:153} INFO - Started process (PID=1738) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:49.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:49.453+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:49.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:49.465+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:49.492+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:49.491+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:49.529+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:49.529+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:49.603+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.153 seconds
+[2023-08-25T00:19:54.636+0000] {processor.py:153} INFO - Started process (PID=1750) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:54.636+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:54.637+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:54.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:54.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:54.663+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:54.663+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:54.683+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:54.683+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:54.736+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:19:59.765+0000] {processor.py:153} INFO - Started process (PID=1753) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:59.765+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:19:59.766+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:59.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:59.776+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:19:59.793+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:59.793+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:19:59.813+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:19:59.813+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:19:59.854+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.091 seconds
+[2023-08-25T00:20:04.914+0000] {processor.py:153} INFO - Started process (PID=1772) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:04.915+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:04.915+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:04.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:04.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:04.955+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:04.954+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:04.988+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:04.988+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:05.054+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.142 seconds
+[2023-08-25T00:20:10.082+0000] {processor.py:153} INFO - Started process (PID=1775) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:10.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:10.090+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:10.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:10.099+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:10.120+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:10.120+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:10.143+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:10.143+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:10.204+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.124 seconds
+[2023-08-25T00:20:15.236+0000] {processor.py:153} INFO - Started process (PID=1794) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:15.237+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:15.237+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:15.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:15.249+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:15.269+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:15.269+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:15.295+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:15.295+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:15.337+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:20:20.401+0000] {processor.py:153} INFO - Started process (PID=1797) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:20.401+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:20.402+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:20.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:20.414+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:20.438+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:20.438+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:20.468+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:20.468+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:20.513+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.114 seconds
+[2023-08-25T00:20:25.568+0000] {processor.py:153} INFO - Started process (PID=1800) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:25.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:25.569+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:25.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:25.580+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:25.599+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:25.599+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:25.622+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:25.622+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:25.668+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:20:30.721+0000] {processor.py:153} INFO - Started process (PID=1819) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:30.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:30.722+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:30.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:30.731+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:30.748+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:30.748+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:30.769+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:30.769+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:30.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.092 seconds
+[2023-08-25T00:20:35.864+0000] {processor.py:153} INFO - Started process (PID=1822) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:35.865+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:35.865+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:35.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:35.874+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:35.891+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:35.891+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:35.912+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:35.912+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:35.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.091 seconds
+[2023-08-25T00:20:41.009+0000] {processor.py:153} INFO - Started process (PID=1842) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:41.009+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:41.010+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:41.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:41.026+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:41.053+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:41.053+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:41.091+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:41.091+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:41.140+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.134 seconds
+[2023-08-25T00:20:46.206+0000] {processor.py:153} INFO - Started process (PID=1845) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:46.218+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:46.219+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:46.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:46.231+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:46.251+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:46.250+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:46.275+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:46.275+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:46.318+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.115 seconds
+[2023-08-25T00:20:51.366+0000] {processor.py:153} INFO - Started process (PID=1854) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:51.367+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:51.368+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:51.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:51.380+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:51.401+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:51.401+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:51.425+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:51.425+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:51.462+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.099 seconds
+[2023-08-25T00:20:56.522+0000] {processor.py:153} INFO - Started process (PID=1867) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:56.523+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:20:56.523+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:56.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:56.534+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:20:56.560+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:56.560+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:20:56.586+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:20:56.586+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:20:56.647+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.127 seconds
+[2023-08-25T00:21:01.678+0000] {processor.py:153} INFO - Started process (PID=1870) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:01.678+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:01.679+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:01.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:01.687+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:01.704+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:01.704+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:01.724+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:01.724+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:01.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.087 seconds
+[2023-08-25T00:21:06.825+0000] {processor.py:153} INFO - Started process (PID=1888) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:06.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:06.826+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:06.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:06.837+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:06.863+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:06.863+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:06.899+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:06.899+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:06.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.130 seconds
+[2023-08-25T00:21:11.992+0000] {processor.py:153} INFO - Started process (PID=1891) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:11.992+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:11.993+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:11.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:12.001+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:12.020+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:12.019+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:12.039+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:12.039+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:12.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.084 seconds
+[2023-08-25T00:21:17.135+0000] {processor.py:153} INFO - Started process (PID=1903) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:17.136+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:17.136+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:17.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:17.149+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:17.171+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:17.171+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:17.205+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:17.204+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:17.250+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.117 seconds
+[2023-08-25T00:21:22.313+0000] {processor.py:153} INFO - Started process (PID=1913) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:22.320+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:22.320+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:22.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:22.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:22.351+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:22.351+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:22.375+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:22.375+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:22.416+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.106 seconds
+[2023-08-25T00:21:27.480+0000] {processor.py:153} INFO - Started process (PID=1916) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:27.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:27.481+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:27.481+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:27.492+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:27.522+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:27.522+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:27.553+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:27.553+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:27.597+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.120 seconds
+[2023-08-25T00:21:32.665+0000] {processor.py:153} INFO - Started process (PID=1935) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:32.665+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:32.666+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:32.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:32.676+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:32.696+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:32.696+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:32.720+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:32.720+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:32.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:21:37.821+0000] {processor.py:153} INFO - Started process (PID=1938) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:37.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:37.821+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:37.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:37.831+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:37.850+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:37.850+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:37.871+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:37.871+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:37.910+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.092 seconds
+[2023-08-25T00:21:42.969+0000] {processor.py:153} INFO - Started process (PID=1957) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:42.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:42.971+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:42.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:42.988+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:43.018+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:43.017+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:43.054+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:43.054+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:43.122+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.155 seconds
+[2023-08-25T00:21:48.159+0000] {processor.py:153} INFO - Started process (PID=1960) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:48.159+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:48.160+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:48.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:48.171+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:48.191+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:48.191+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:48.216+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:48.216+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:48.391+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.235 seconds
+[2023-08-25T00:21:53.452+0000] {processor.py:153} INFO - Started process (PID=1963) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:53.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:53.453+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:53.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:53.469+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:53.495+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:53.494+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:53.523+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:53.523+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:53.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.116 seconds
+[2023-08-25T00:21:58.630+0000] {processor.py:153} INFO - Started process (PID=1982) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:58.631+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:21:58.632+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:58.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:58.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:21:58.667+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:58.667+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:21:58.698+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:21:58.698+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:21:58.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.115 seconds
+[2023-08-25T00:22:03.808+0000] {processor.py:153} INFO - Started process (PID=1985) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:03.808+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:03.809+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:03.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:03.817+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:03.834+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:03.834+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:03.858+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:03.858+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:03.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.093 seconds
+[2023-08-25T00:22:08.963+0000] {processor.py:153} INFO - Started process (PID=2003) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:08.964+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:08.965+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:08.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:08.988+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:09.018+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:09.017+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:09.054+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:09.053+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:09.110+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.150 seconds
+[2023-08-25T00:22:14.158+0000] {processor.py:153} INFO - Started process (PID=2006) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:14.159+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:14.159+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:14.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:14.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:14.203+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:14.203+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:14.233+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:14.233+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:14.276+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.121 seconds
+[2023-08-25T00:22:19.363+0000] {processor.py:153} INFO - Started process (PID=2019) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:19.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:19.364+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:19.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:19.377+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:19.399+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:19.399+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:19.429+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:19.429+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:19.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.168 seconds
+[2023-08-25T00:22:24.571+0000] {processor.py:153} INFO - Started process (PID=2029) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:24.590+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:24.591+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:24.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:24.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:24.644+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:24.643+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:24.696+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:24.696+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:24.768+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.201 seconds
+[2023-08-25T00:22:29.813+0000] {processor.py:153} INFO - Started process (PID=2032) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:29.814+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:29.814+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:29.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:29.825+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:29.845+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:29.844+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:29.868+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:29.868+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:29.916+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.105 seconds
+[2023-08-25T00:22:34.992+0000] {processor.py:153} INFO - Started process (PID=2050) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:34.992+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:34.992+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:34.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:35.004+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:35.029+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:35.029+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:35.064+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:35.063+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:35.105+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.116 seconds
+[2023-08-25T00:22:40.161+0000] {processor.py:153} INFO - Started process (PID=2053) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:40.161+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:40.162+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:40.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:40.171+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:40.190+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:40.190+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:40.212+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:40.212+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:40.251+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.092 seconds
+[2023-08-25T00:22:45.311+0000] {processor.py:153} INFO - Started process (PID=2065) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:45.312+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:45.312+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:45.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:45.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:45.355+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:45.354+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:45.401+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:45.401+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:45.461+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.153 seconds
+[2023-08-25T00:22:50.521+0000] {processor.py:153} INFO - Started process (PID=2075) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:50.521+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:50.522+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:50.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:50.535+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:50.565+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:50.565+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:50.607+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:50.607+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:50.667+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.149 seconds
+[2023-08-25T00:22:55.708+0000] {processor.py:153} INFO - Started process (PID=2078) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:55.726+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:22:55.726+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:55.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:55.738+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:22:55.764+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:55.764+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:22:55.795+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:22:55.795+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:22:55.856+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.150 seconds
+[2023-08-25T00:23:00.890+0000] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:00.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:00.891+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:00.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:00.903+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:00.924+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:00.924+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:00.949+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:00.949+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:00.993+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.105 seconds
+[2023-08-25T00:23:06.050+0000] {processor.py:153} INFO - Started process (PID=2101) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:06.050+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:06.051+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:06.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:06.060+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:06.078+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:06.078+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:06.100+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:06.100+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:06.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.096 seconds
+[2023-08-25T00:23:11.200+0000] {processor.py:153} INFO - Started process (PID=2121) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:11.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:11.201+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:11.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:11.216+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:11.243+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:11.243+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:11.276+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:11.276+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:11.324+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.126 seconds
+[2023-08-25T00:23:16.390+0000] {processor.py:153} INFO - Started process (PID=2124) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:16.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:16.391+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:16.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:16.404+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:16.426+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:16.425+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:16.451+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:16.451+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:16.503+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.115 seconds
+[2023-08-25T00:23:21.563+0000] {processor.py:153} INFO - Started process (PID=2127) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:21.564+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:21.564+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:21.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:21.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:21.601+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:21.600+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:21.638+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:21.638+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:21.704+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.145 seconds
+[2023-08-25T00:23:26.766+0000] {processor.py:153} INFO - Started process (PID=2145) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:26.767+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:26.767+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:26.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:26.781+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:26.810+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:26.809+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:26.857+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:26.857+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:26.907+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.144 seconds
+[2023-08-25T00:23:31.970+0000] {processor.py:153} INFO - Started process (PID=2148) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:31.991+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:32.020+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:32.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:32.029+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:32.048+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:32.048+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:32.069+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:32.069+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:32.151+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.184 seconds
+[2023-08-25T00:23:37.244+0000] {processor.py:153} INFO - Started process (PID=2166) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:37.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:37.246+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:37.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:37.268+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:37.323+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:37.322+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:37.371+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:37.371+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:37.429+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.190 seconds
+[2023-08-25T00:23:42.497+0000] {processor.py:153} INFO - Started process (PID=2169) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:42.498+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:42.498+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:42.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:42.512+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:42.541+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:42.541+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:42.581+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:42.581+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:42.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.148 seconds
+[2023-08-25T00:23:47.694+0000] {processor.py:153} INFO - Started process (PID=2172) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:47.695+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:47.695+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:47.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:47.708+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:47.733+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:47.732+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:47.764+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:47.764+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:47.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.140 seconds
+[2023-08-25T00:23:52.905+0000] {processor.py:153} INFO - Started process (PID=2191) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:52.906+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:52.906+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:52.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:52.926+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:52.953+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:52.952+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:52.982+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:52.982+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:53.034+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.133 seconds
+[2023-08-25T00:23:58.094+0000] {processor.py:153} INFO - Started process (PID=2194) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:58.095+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:23:58.095+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:58.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:58.111+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:23:58.140+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:58.140+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:23:58.171+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:23:58.171+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:23:58.215+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.124 seconds
+[2023-08-25T00:24:03.279+0000] {processor.py:153} INFO - Started process (PID=2213) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:03.279+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:03.280+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:03.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:03.297+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:03.322+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:03.322+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:03.350+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:03.350+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:03.413+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.136 seconds
+[2023-08-25T00:24:08.483+0000] {processor.py:153} INFO - Started process (PID=2216) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:08.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:08.484+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:08.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:08.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:08.534+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:08.533+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:08.564+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:08.564+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:08.615+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.136 seconds
+[2023-08-25T00:24:13.682+0000] {processor.py:153} INFO - Started process (PID=2228) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:13.683+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:13.683+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:13.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:13.700+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:13.729+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:13.728+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:13.762+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:13.762+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:13.819+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.140 seconds
+[2023-08-25T00:24:18.886+0000] {processor.py:153} INFO - Started process (PID=2238) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:18.886+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:18.887+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:18.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:18.907+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:18.941+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:18.941+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:18.985+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:18.985+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:19.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.198 seconds
+[2023-08-25T00:24:24.118+0000] {processor.py:153} INFO - Started process (PID=2241) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:24.118+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:24.119+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:24.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:24.131+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:24.153+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:24.153+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:24.178+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:24.178+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:24.225+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.109 seconds
+[2023-08-25T00:24:29.286+0000] {processor.py:153} INFO - Started process (PID=2260) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:29.286+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:29.287+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:29.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:29.297+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:29.320+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:29.320+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:29.345+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:29.345+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:29.401+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.118 seconds
+[2023-08-25T00:24:34.466+0000] {processor.py:153} INFO - Started process (PID=2263) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:34.466+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:34.467+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:34.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:34.479+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:34.504+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:34.504+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:34.555+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:34.555+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:34.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.162 seconds
+[2023-08-25T00:24:39.719+0000] {processor.py:153} INFO - Started process (PID=2281) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:39.720+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:39.720+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:39.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:39.739+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:39.768+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:39.768+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:39.812+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:39.812+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:39.870+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.157 seconds
+[2023-08-25T00:24:44.968+0000] {processor.py:153} INFO - Started process (PID=2284) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:44.985+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:44.986+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:44.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:45.002+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:45.027+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:45.027+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:45.054+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:45.053+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:45.109+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.143 seconds
+[2023-08-25T00:24:50.147+0000] {processor.py:153} INFO - Started process (PID=2287) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:50.147+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:50.148+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:50.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:50.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:50.189+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:50.189+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:50.233+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:50.232+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:50.281+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.138 seconds
+[2023-08-25T00:24:55.369+0000] {processor.py:153} INFO - Started process (PID=2306) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:55.370+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:24:55.370+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:55.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:55.385+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:24:55.413+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:55.413+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:24:55.454+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:24:55.453+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:24:55.520+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.154 seconds
+[2023-08-25T00:25:00.779+0000] {processor.py:153} INFO - Started process (PID=2310) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:00.780+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:00.780+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:00.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:00.791+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:00.810+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:00.810+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:00.831+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:00.831+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:00.872+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.094 seconds
+[2023-08-25T00:25:06.044+0000] {processor.py:153} INFO - Started process (PID=2330) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:06.045+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:06.046+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:06.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:06.057+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:06.079+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:06.079+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:06.106+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:06.106+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:06.146+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:25:11.221+0000] {processor.py:153} INFO - Started process (PID=2334) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:11.223+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:11.224+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:11.224+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:11.247+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:11.287+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:11.287+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:11.322+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:11.321+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:11.361+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.146 seconds
+[2023-08-25T00:25:16.428+0000] {processor.py:153} INFO - Started process (PID=2347) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:16.428+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:16.429+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:16.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:16.441+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:16.471+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:16.470+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:16.514+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:16.514+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:16.568+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.144 seconds
+[2023-08-25T00:25:21.612+0000] {processor.py:153} INFO - Started process (PID=2358) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:21.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:21.613+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:21.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:21.626+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:21.655+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:21.655+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:21.697+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:21.697+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:21.744+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.134 seconds
+[2023-08-25T00:25:26.926+0000] {processor.py:153} INFO - Started process (PID=2362) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:26.926+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:26.927+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:26.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:26.937+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:26.955+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:26.955+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:26.976+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:26.976+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:27.020+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.096 seconds
+[2023-08-25T00:25:32.200+0000] {processor.py:153} INFO - Started process (PID=2382) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:32.200+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:32.201+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:32.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:32.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:32.233+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:32.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:32.260+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:32.260+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:32.302+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.104 seconds
+[2023-08-25T00:25:37.519+0000] {processor.py:153} INFO - Started process (PID=2386) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:37.519+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:37.520+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:37.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:37.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:37.549+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:37.549+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:37.574+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:37.574+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:37.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:25:42.679+0000] {processor.py:153} INFO - Started process (PID=2406) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:42.679+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:42.680+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:42.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:42.690+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:42.711+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:42.711+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:42.736+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:42.736+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:42.780+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.104 seconds
+[2023-08-25T00:25:47.974+0000] {processor.py:153} INFO - Started process (PID=2410) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:47.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:47.976+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:47.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:47.988+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:48.018+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:48.017+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:48.056+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:48.056+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:48.110+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.138 seconds
+[2023-08-25T00:25:53.179+0000] {processor.py:153} INFO - Started process (PID=2414) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:53.179+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:53.179+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:53.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:53.193+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:53.213+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:53.213+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:53.236+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:53.236+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:53.275+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.098 seconds
+[2023-08-25T00:25:58.461+0000] {processor.py:153} INFO - Started process (PID=2433) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:58.466+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:25:58.466+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:58.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:58.479+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:25:58.501+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:58.500+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:25:58.528+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:25:58.528+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:25:58.570+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.111 seconds
+[2023-08-25T00:26:03.638+0000] {processor.py:153} INFO - Started process (PID=2437) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:03.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:03.639+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:03.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:03.648+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:03.665+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:03.665+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:03.685+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:03.685+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:03.729+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.093 seconds
+[2023-08-25T00:26:08.882+0000] {processor.py:153} INFO - Started process (PID=2457) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:08.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:08.883+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:08.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:08.896+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:08.919+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:08.919+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:08.946+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:08.946+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:09.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.129 seconds
+[2023-08-25T00:26:14.071+0000] {processor.py:153} INFO - Started process (PID=2461) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:14.072+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:14.072+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:14.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:14.084+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:14.105+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:14.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:14.129+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:14.129+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:14.173+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.105 seconds
+[2023-08-25T00:26:19.349+0000] {processor.py:153} INFO - Started process (PID=2475) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:19.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:19.351+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:19.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:19.363+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:19.386+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:19.386+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:19.419+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:19.419+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:19.467+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.120 seconds
+[2023-08-25T00:26:24.615+0000] {processor.py:153} INFO - Started process (PID=2486) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:24.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:24.616+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:24.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:24.627+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:24.646+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:24.645+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:24.670+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:24.670+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:24.715+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:26:29.772+0000] {processor.py:153} INFO - Started process (PID=2490) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:29.773+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:29.774+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:29.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:29.783+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:29.802+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:29.802+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:29.823+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:29.823+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:29.869+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.099 seconds
+[2023-08-25T00:26:35.021+0000] {processor.py:153} INFO - Started process (PID=2509) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:35.022+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:35.022+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:35.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:35.033+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:35.055+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:35.055+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:35.082+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:35.082+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:35.125+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.106 seconds
+[2023-08-25T00:26:40.285+0000] {processor.py:153} INFO - Started process (PID=2513) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:40.286+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:40.286+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:40.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:40.296+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:40.314+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:40.314+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:40.338+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:40.338+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:40.383+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.100 seconds
+[2023-08-25T00:26:45.539+0000] {processor.py:153} INFO - Started process (PID=2533) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:45.540+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:45.540+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:45.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:45.550+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:45.569+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:45.569+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:45.593+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:45.593+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:45.635+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.098 seconds
+[2023-08-25T00:26:50.801+0000] {processor.py:153} INFO - Started process (PID=2537) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:50.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:50.802+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:50.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:50.813+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:50.834+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:50.834+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:50.862+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:50.862+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:50.917+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.119 seconds
+[2023-08-25T00:26:56.057+0000] {processor.py:153} INFO - Started process (PID=2541) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:56.058+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:26:56.058+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:56.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:56.068+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:26:56.092+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:56.092+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:26:56.131+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:26:56.131+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:26:56.201+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.146 seconds
+[2023-08-25T00:27:01.371+0000] {processor.py:153} INFO - Started process (PID=2561) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:01.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:01.372+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:01.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:01.383+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:01.404+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:01.404+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:01.435+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:01.435+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:01.504+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.135 seconds
+[2023-08-25T00:27:06.642+0000] {processor.py:153} INFO - Started process (PID=2565) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:06.642+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:06.643+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:06.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:06.653+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:06.676+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:06.675+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:06.697+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:06.697+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:06.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.091 seconds
+[2023-08-25T00:27:11.887+0000] {processor.py:153} INFO - Started process (PID=2585) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:11.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:11.888+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:11.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:11.899+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:11.923+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:11.923+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:11.948+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:11.948+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:11.988+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:27:17.160+0000] {processor.py:153} INFO - Started process (PID=2589) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:17.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:17.161+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:17.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:17.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:17.191+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:17.191+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:17.212+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:17.212+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:17.280+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.122 seconds
+[2023-08-25T00:27:22.401+0000] {processor.py:153} INFO - Started process (PID=2608) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:22.402+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:22.402+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:22.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:22.419+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:22.446+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:22.446+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:22.485+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:22.485+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:22.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.129 seconds
+[2023-08-25T00:27:27.694+0000] {processor.py:153} INFO - Started process (PID=2612) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:27.695+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:27.695+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:27.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:27.707+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:27.731+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:27.731+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:27.763+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:27.763+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:27.811+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.118 seconds
+[2023-08-25T00:27:32.865+0000] {processor.py:153} INFO - Started process (PID=2616) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:32.866+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:32.866+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:32.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:32.875+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:32.894+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:32.894+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:32.916+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:32.916+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:32.972+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.109 seconds
+[2023-08-25T00:27:38.129+0000] {processor.py:153} INFO - Started process (PID=2636) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:38.151+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:38.152+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:38.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:38.165+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:38.193+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:38.193+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:38.235+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:38.234+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:38.283+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.156 seconds
+[2023-08-25T00:27:43.416+0000] {processor.py:153} INFO - Started process (PID=2640) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:43.417+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:43.417+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:43.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:43.427+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:43.445+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:43.445+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:43.465+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:43.465+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:43.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.086 seconds
+[2023-08-25T00:27:48.638+0000] {processor.py:153} INFO - Started process (PID=2660) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:48.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:48.639+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:48.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:48.654+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:48.678+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:48.678+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:48.708+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:48.708+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:48.766+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.132 seconds
+[2023-08-25T00:27:53.950+0000] {processor.py:153} INFO - Started process (PID=2664) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:53.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:53.951+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:53.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:53.963+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:53.983+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:53.983+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:54.008+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:54.008+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:54.048+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:27:59.188+0000] {processor.py:153} INFO - Started process (PID=2676) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:59.189+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:27:59.189+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:59.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:59.204+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:27:59.225+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:59.225+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:27:59.248+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:27:59.248+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:27:59.313+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.127 seconds
+[2023-08-25T00:28:04.470+0000] {processor.py:153} INFO - Started process (PID=2687) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:04.471+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:04.471+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:04.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:04.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:04.508+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:04.508+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:04.534+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:04.533+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:04.580+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.113 seconds
+[2023-08-25T00:28:09.737+0000] {processor.py:153} INFO - Started process (PID=2691) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:09.737+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:09.738+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:09.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:09.746+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:09.765+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:09.765+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:09.785+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:09.785+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:09.858+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.123 seconds
+[2023-08-25T00:28:14.948+0000] {processor.py:153} INFO - Started process (PID=2712) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:15.018+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:15.019+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:15.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:15.033+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:15.060+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:15.059+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:15.098+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:15.098+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:15.150+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.206 seconds
+[2023-08-25T00:28:20.319+0000] {processor.py:153} INFO - Started process (PID=2716) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:20.320+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:20.320+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:20.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:20.329+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:20.347+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:20.347+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:20.373+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:20.373+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:20.413+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.096 seconds
+[2023-08-25T00:28:25.559+0000] {processor.py:153} INFO - Started process (PID=2736) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:25.559+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:25.560+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:25.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:25.575+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:25.603+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:25.603+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:25.634+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:25.634+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:25.697+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.141 seconds
+[2023-08-25T00:28:30.907+0000] {processor.py:153} INFO - Started process (PID=2740) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:30.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:30.909+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:30.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:30.926+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:30.950+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:30.950+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:30.979+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:30.979+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:31.063+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.159 seconds
+[2023-08-25T00:28:36.201+0000] {processor.py:153} INFO - Started process (PID=2744) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:36.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:36.202+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:36.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:36.216+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:36.237+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:36.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:36.264+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:36.264+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:36.336+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.138 seconds
+[2023-08-25T00:28:41.391+0000] {processor.py:153} INFO - Started process (PID=2764) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:41.392+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:41.393+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:41.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:41.404+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:41.426+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:41.426+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:41.456+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:41.455+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:41.517+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.129 seconds
+[2023-08-25T00:28:46.690+0000] {processor.py:153} INFO - Started process (PID=2768) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:46.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:46.691+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:46.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:46.700+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:46.717+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:46.717+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:46.740+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:46.739+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:46.795+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.107 seconds
+[2023-08-25T00:28:51.940+0000] {processor.py:153} INFO - Started process (PID=2788) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:51.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:51.957+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:51.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:51.971+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:51.995+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:51.994+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:52.038+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:52.038+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:52.108+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.171 seconds
+[2023-08-25T00:28:57.232+0000] {processor.py:153} INFO - Started process (PID=2792) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:57.232+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:28:57.233+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:57.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:57.241+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:28:57.259+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:57.259+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:28:57.281+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:28:57.280+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:28:57.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.091 seconds
+[2023-08-25T00:29:02.465+0000] {processor.py:153} INFO - Started process (PID=2812) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:02.465+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:02.465+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:02.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:02.476+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:02.495+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:02.495+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:02.520+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:02.520+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:02.565+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.104 seconds
+[2023-08-25T00:29:07.733+0000] {processor.py:153} INFO - Started process (PID=2816) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:07.733+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:07.734+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:07.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:07.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:07.770+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:07.770+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:07.798+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:07.798+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:07.840+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.110 seconds
+[2023-08-25T00:29:12.972+0000] {processor.py:153} INFO - Started process (PID=2820) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:12.973+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:12.973+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:12.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:12.982+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:13.004+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:13.004+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:13.026+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:13.026+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:13.099+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.128 seconds
+[2023-08-25T00:29:18.229+0000] {processor.py:153} INFO - Started process (PID=2840) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:18.229+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:18.230+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:18.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:18.246+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:18.274+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:18.274+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:18.310+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:18.310+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:18.365+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.139 seconds
+[2023-08-25T00:29:23.544+0000] {processor.py:153} INFO - Started process (PID=2844) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:23.544+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:23.545+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:23.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:23.553+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:23.571+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:23.570+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:23.591+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:23.591+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:23.636+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.094 seconds
+[2023-08-25T00:29:28.691+0000] {processor.py:153} INFO - Started process (PID=2864) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:28.697+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:28.697+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:28.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:28.714+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:28.736+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:28.736+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:28.766+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:28.766+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:28.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.142 seconds
+[2023-08-25T00:29:33.992+0000] {processor.py:153} INFO - Started process (PID=2868) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:33.993+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:33.993+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:33.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:34.002+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:34.021+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:34.020+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:34.044+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:34.044+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:34.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.092 seconds
+[2023-08-25T00:29:39.232+0000] {processor.py:153} INFO - Started process (PID=2888) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:39.233+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:39.233+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:39.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:39.243+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:39.264+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:39.264+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:39.287+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:39.287+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:39.333+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.103 seconds
+[2023-08-25T00:29:44.536+0000] {processor.py:153} INFO - Started process (PID=2892) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:44.536+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:44.537+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:44.537+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:44.548+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:44.568+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:44.568+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:44.594+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:44.594+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:44.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.110 seconds
+[2023-08-25T00:29:49.805+0000] {processor.py:153} INFO - Started process (PID=2902) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:49.805+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:49.806+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:49.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:49.822+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:49.848+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:49.848+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:49.881+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:49.881+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:49.926+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.123 seconds
+[2023-08-25T00:29:55.082+0000] {processor.py:153} INFO - Started process (PID=2916) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:55.082+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:29:55.083+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:55.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:55.093+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:29:55.117+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:55.117+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:29:55.152+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:29:55.152+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:29:55.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.130 seconds
+[2023-08-25T00:30:00.240+0000] {processor.py:153} INFO - Started process (PID=2920) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:00.241+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:00.241+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:00.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:00.250+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:00.267+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:00.267+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:00.288+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:00.287+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:00.323+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.085 seconds
+[2023-08-25T00:30:05.514+0000] {processor.py:153} INFO - Started process (PID=2940) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:05.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:05.515+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:05.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:05.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:05.554+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:05.554+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:05.588+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:05.588+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:05.644+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.132 seconds
+[2023-08-25T00:30:10.765+0000] {processor.py:153} INFO - Started process (PID=2944) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:10.765+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:10.766+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:10.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:10.778+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:10.800+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:10.800+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:10.825+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:10.824+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:10.866+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.104 seconds
+[2023-08-25T00:30:16.012+0000] {processor.py:153} INFO - Started process (PID=2964) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:16.013+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:16.013+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:16.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:16.025+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:16.050+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:16.050+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:16.086+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:16.085+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:16.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.127 seconds
+[2023-08-25T00:30:21.299+0000] {processor.py:153} INFO - Started process (PID=2968) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:21.300+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:21.300+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:21.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:21.309+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:21.326+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:21.326+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:21.346+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:21.346+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:21.392+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.094 seconds
+[2023-08-25T00:30:26.454+0000] {processor.py:153} INFO - Started process (PID=2977) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:26.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:26.455+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:26.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:26.469+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:26.487+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:26.487+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:26.508+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:26.508+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:26.573+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.123 seconds
+[2023-08-25T00:30:31.764+0000] {processor.py:153} INFO - Started process (PID=2991) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:31.785+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:31.786+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:31.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:31.801+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:31.819+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:31.819+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:31.844+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:31.844+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:31.904+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.143 seconds
+[2023-08-25T00:30:36.934+0000] {processor.py:153} INFO - Started process (PID=2995) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:36.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:36.935+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:36.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:36.944+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:36.961+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:36.961+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:36.981+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:36.981+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:37.020+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.088 seconds
+[2023-08-25T00:30:42.244+0000] {processor.py:153} INFO - Started process (PID=3015) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:42.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:42.245+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:42.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:42.256+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:42.276+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:42.276+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:42.305+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:42.305+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:42.355+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.114 seconds
+[2023-08-25T00:30:47.517+0000] {processor.py:153} INFO - Started process (PID=3019) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:47.518+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:47.518+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:47.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:47.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:47.550+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:47.549+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:47.576+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:47.575+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:47.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:30:52.795+0000] {processor.py:153} INFO - Started process (PID=3039) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:52.795+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:52.797+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:52.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:52.813+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:52.836+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:52.836+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:52.862+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:52.862+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:52.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.130 seconds
+[2023-08-25T00:30:58.122+0000] {processor.py:153} INFO - Started process (PID=3043) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:58.123+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:30:58.123+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:58.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:58.133+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:30:58.165+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:58.165+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:30:58.195+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:30:58.195+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:30:58.249+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.128 seconds
+[2023-08-25T00:31:03.461+0000] {processor.py:153} INFO - Started process (PID=3056) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:03.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:03.462+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:03.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:03.477+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:03.499+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:03.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:03.523+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:03.523+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:03.606+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.148 seconds
+[2023-08-25T00:31:08.791+0000] {processor.py:153} INFO - Started process (PID=3067) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:08.804+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:08.804+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:08.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:08.817+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:08.843+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:08.842+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:08.868+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:08.868+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:08.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.143 seconds
+[2023-08-25T00:31:14.047+0000] {processor.py:153} INFO - Started process (PID=3071) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:14.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:14.048+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:14.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:14.057+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:14.074+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:14.074+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:14.094+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:14.094+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:14.138+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.092 seconds
+[2023-08-25T00:31:19.300+0000] {processor.py:153} INFO - Started process (PID=3091) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:19.300+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:19.301+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:19.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:19.318+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:19.348+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:19.348+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:19.389+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:19.389+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:19.465+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.167 seconds
+[2023-08-25T00:31:24.620+0000] {processor.py:153} INFO - Started process (PID=3095) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:24.620+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:24.621+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:24.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:24.632+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:24.660+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:24.660+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:24.700+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:24.700+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:24.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.148 seconds
+[2023-08-25T00:31:29.898+0000] {processor.py:153} INFO - Started process (PID=3115) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:29.898+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:29.898+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:29.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:29.909+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:29.927+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:29.927+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:29.951+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:29.950+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:29.993+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.097 seconds
+[2023-08-25T00:31:35.131+0000] {processor.py:153} INFO - Started process (PID=3119) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:35.132+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:35.132+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:35.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:35.140+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:35.156+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:35.156+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:35.176+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:35.176+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:35.225+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.096 seconds
+[2023-08-25T00:31:40.401+0000] {processor.py:153} INFO - Started process (PID=3131) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:40.401+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:40.402+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:40.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:40.413+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:40.434+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:40.433+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:40.459+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:40.459+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:40.533+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.136 seconds
+[2023-08-25T00:31:45.628+0000] {processor.py:153} INFO - Started process (PID=3142) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:45.653+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:45.653+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:45.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:45.665+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:45.685+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:45.685+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:45.710+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:45.710+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:45.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.139 seconds
+[2023-08-25T00:31:50.891+0000] {processor.py:153} INFO - Started process (PID=3146) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:50.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:50.892+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:50.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:50.903+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:50.923+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:50.923+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:50.946+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:50.946+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:50.992+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.102 seconds
+[2023-08-25T00:31:56.156+0000] {processor.py:153} INFO - Started process (PID=3165) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:56.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:31:56.157+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:56.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:56.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:31:56.200+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:56.200+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:31:56.239+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:31:56.239+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:31:56.299+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.145 seconds
+[2023-08-25T00:32:01.437+0000] {processor.py:153} INFO - Started process (PID=3169) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:01.438+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:01.438+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:01.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:01.451+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:01.471+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:01.471+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:01.497+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:01.497+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:01.547+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.112 seconds
+[2023-08-25T00:32:06.704+0000] {processor.py:153} INFO - Started process (PID=3189) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:06.705+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:06.705+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:06.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:06.716+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:06.738+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:06.738+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:06.766+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:06.765+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:06.810+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.108 seconds
+[2023-08-25T00:32:11.868+0000] {processor.py:153} INFO - Started process (PID=3193) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:11.868+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:11.869+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:11.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:11.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:11.903+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:11.903+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:11.930+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:11.930+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:11.982+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.117 seconds
+[2023-08-25T00:32:17.149+0000] {processor.py:153} INFO - Started process (PID=3205) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:17.149+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:17.150+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:17.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:17.165+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:17.191+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:17.191+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:17.226+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:17.225+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:17.308+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.162 seconds
+[2023-08-25T00:32:22.559+0000] {processor.py:153} INFO - Started process (PID=3216) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:22.567+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:22.568+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:22.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:22.582+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:22.606+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:22.606+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:22.643+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:22.642+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:22.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.155 seconds
+[2023-08-25T00:32:27.902+0000] {processor.py:153} INFO - Started process (PID=3220) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:27.902+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:27.903+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:27.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:27.915+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:27.936+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:27.935+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:27.962+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:27.962+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:28.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.119 seconds
+[2023-08-25T00:32:33.172+0000] {processor.py:153} INFO - Started process (PID=3240) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:33.173+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:33.174+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:33.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:33.192+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:33.219+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:33.219+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:33.247+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:33.247+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:33.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.142 seconds
+[2023-08-25T00:32:38.460+0000] {processor.py:153} INFO - Started process (PID=3244) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:38.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:38.461+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:38.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:38.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:38.494+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:38.494+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:38.520+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:38.520+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:38.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.111 seconds
+[2023-08-25T00:32:43.766+0000] {processor.py:153} INFO - Started process (PID=3264) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:43.766+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:43.767+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:43.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:43.776+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:43.794+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:43.794+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:43.817+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:43.817+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:43.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.159 seconds
+[2023-08-25T00:32:49.054+0000] {processor.py:153} INFO - Started process (PID=3268) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:49.054+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:49.055+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:49.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:49.064+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:49.083+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:49.083+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:49.104+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:49.104+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:49.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.094 seconds
+[2023-08-25T00:32:54.294+0000] {processor.py:153} INFO - Started process (PID=3281) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:54.297+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:54.298+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:54.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:54.308+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:54.326+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:54.326+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:54.349+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:54.348+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:54.385+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.093 seconds
+[2023-08-25T00:32:59.564+0000] {processor.py:153} INFO - Started process (PID=3292) to work on /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:59.564+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiradag.py for tasks to queue
+[2023-08-25T00:32:59.565+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:59.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:59.574+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceiradag']) retrieved from /opt/airflow/dags/terceiradag.py
+[2023-08-25T00:32:59.591+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:59.591+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-08-25T00:32:59.611+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:32:59.611+0000] {dag.py:3441} INFO - Setting next_dagrun for terceiradag to None, run_after=None
+[2023-08-25T00:32:59.711+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiradag.py took 0.149 seconds

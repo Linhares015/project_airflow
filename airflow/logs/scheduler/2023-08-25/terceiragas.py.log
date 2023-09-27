@@ -1,0 +1,196 @@
+[2023-08-25T00:16:20.771+0000] {processor.py:153} INFO - Started process (PID=1351) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:20.772+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:20.772+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:20.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:20.778+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:20.778+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:20.779+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:20.822+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.053 seconds
+[2023-08-25T00:16:25.902+0000] {processor.py:153} INFO - Started process (PID=1354) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:25.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:25.903+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:25.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:25.910+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:25.909+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:25.910+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:25.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.086 seconds
+[2023-08-25T00:16:31.139+0000] {processor.py:153} INFO - Started process (PID=1374) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:31.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:31.141+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:31.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:31.151+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:31.150+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:31.152+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:31.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.063 seconds
+[2023-08-25T00:16:32.303+0000] {processor.py:153} INFO - Started process (PID=1377) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:32.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:32.304+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:32.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:32.310+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:32.310+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:32.311+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:32.373+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.071 seconds
+[2023-08-25T00:16:33.309+0000] {processor.py:153} INFO - Started process (PID=1378) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:33.310+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:33.310+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:33.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:33.317+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:33.316+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:33.317+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:33.354+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.047 seconds
+[2023-08-25T00:16:38.448+0000] {processor.py:153} INFO - Started process (PID=1381) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:38.448+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:38.449+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:38.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:38.455+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:38.455+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:38.456+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:38.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.061 seconds
+[2023-08-25T00:16:43.610+0000] {processor.py:153} INFO - Started process (PID=1400) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:43.611+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:43.611+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:43.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:43.617+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:43.617+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:43.618+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:43.671+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.064 seconds
+[2023-08-25T00:16:48.732+0000] {processor.py:153} INFO - Started process (PID=1403) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:48.733+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:48.733+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:48.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:48.738+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:48.737+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:48.738+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:48.786+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.056 seconds
+[2023-08-25T00:16:53.906+0000] {processor.py:153} INFO - Started process (PID=1415) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:53.918+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:53.919+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:53.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:53.925+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:53.924+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:53.926+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:53.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.067 seconds
+[2023-08-25T00:16:59.090+0000] {processor.py:153} INFO - Started process (PID=1425) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:59.091+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:16:59.091+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:59.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:59.096+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:16:59.095+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:16:59.096+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:16:59.141+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.052 seconds
+[2023-08-25T00:17:04.237+0000] {processor.py:153} INFO - Started process (PID=1428) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:04.237+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:17:04.238+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:04.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:04.245+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:04.244+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:04.245+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:04.290+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.055 seconds
+[2023-08-25T00:17:09.325+0000] {processor.py:153} INFO - Started process (PID=1447) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:09.325+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:17:09.326+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:09.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:09.335+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:09.334+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:09.335+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:09.459+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.137 seconds
+[2023-08-25T00:17:14.566+0000] {processor.py:153} INFO - Started process (PID=1450) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:14.567+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:17:14.567+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:14.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:14.573+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:14.573+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:14.574+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:14.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.061 seconds
+[2023-08-25T00:17:19.765+0000] {processor.py:153} INFO - Started process (PID=1469) to work on /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:19.765+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/terceiragas.py for tasks to queue
+[2023-08-25T00:17:19.766+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:19.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:19.773+0000] {logging_mixin.py:137} INFO - [2023-08-25T00:17:19.772+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/terceiragas.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/terceiragas.py", line 14, in <module>
+    [task1m, task2] >> task3
+NameError: name 'task1m' is not defined
+[2023-08-25T00:17:19.773+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/terceiragas.py
+[2023-08-25T00:17:19.829+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/terceiragas.py took 0.067 seconds
